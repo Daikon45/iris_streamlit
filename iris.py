@@ -1,5 +1,4 @@
 # 基本ライブラリ
-
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -25,6 +24,7 @@ y = iris.target
 # ロジスティック回帰
 clf = LogisticRegression()
 clf.fit(x, y)
+
 # サイドバー（入力画面）
 st.sidebar.header('Input Features')
 
